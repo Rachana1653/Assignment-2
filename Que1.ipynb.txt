@@ -1,0 +1,13 @@
+# Questions 1:
+# Create an empty list. Accept 10 numbers from the user and append to it the list if it is an even number.
+list = []
+# print(list)
+for i in range(10):
+    i = int(input())
+    if (i % 2) == 0:
+        list.append(i)
+    else:
+        continue
+
+
+print(list)

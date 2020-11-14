@@ -1,0 +1,85 @@
+# Questions 2:
+# Create a notebook on LIST COMPREHENSION.
+
+list = [] 
+print("print empty list :", list)
+
+
+list1 = [10, 20, 15, 68, 9, 56, 85, 95, 64, 58, 56, 32, 32]  # int List create
+
+
+print("List of int :", my_list1)
+
+
+mixed_list = [10, 'yogi', 20.0, "Pune"]
+print("mixed list is :", mixed_list)
+
+
+from collections import Counter
+
+
+list = [1, 2, 3, 4, 5, 3, 2, 3, 4, 5, 6, 5, 4, 6, 7, 8, 9, 0, 7, 6, 5, 4, 6, 7, 7, 9]
+
+
+print(Counter(list))
+
+
+str = 'Lets Upgrade '
+
+
+word_list = str.split()
+
+
+print(Counter(word_list))
+
+print(my_list.append(10))
+
+
+print(my_list1.append(mixed_list))
+print(my_list1[1])
+print(my_list1[:3])
+print(my_list1[3:])
+print(my_list1.count())
+
+
+
+print(mixed_list)
+mixed_list.remove(mixed_list[2])
+print(mixed_list)
+
+
+mixed_list.append("Assignment1")
+my_list1.append("Assignment")
+print(mixed_list)
+
+
+print(my_list1)
+my_list1.remove(my_list1[3])
+print(my_list1)
+
+my_list.append(17)
+my_list.append(15)
+my_list.append(1)
+my_list.append(2)
+my_list.append(32)
+my_list.append(17)
+
+
+print(my_list)
+
+
+my_list.remove(my_list[3])
+
+
+print(my_list)
+
+
+print("Unsorted list :",list)
+list.sort()
+print("Sorted list :",list)
+print("Sum of list  is :",sum(list))
+
+
+print("ASCII : :",ascii(list))
+
+
